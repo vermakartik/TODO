@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_back"
+    tools:context="com.example.filoble.todo.TodoDetails">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Todo Name"
+            android:gravity="center_horizontal|bottom"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/ac_todo_detail_tv_todo_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="top|center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Todo Description"
+        android:paddingVertical="4dp"
+        android:textSize="16sp"
+        android:gravity="center_horizontal|bottom"/>
+
+    <TextView
+        android:id="@+id/ac_todo_detail_tv_todo_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="8dp"
+        android:gravity="center_horizontal|top"
+        android:textSize="20sp"
+        android:scrollbars="vertical"
+        android:text="this is the description for the todo title."/>
+    </LinearLayout>
+</LinearLayout>

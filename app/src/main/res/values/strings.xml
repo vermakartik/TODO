@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Todo</string>
+    <string name="KEY_TODO_NAME" translatable="false">todoName</string>
+    <string name="KEY_TODO_DETAILS" translatable="false">todoDetails</string>
+    <string name="TODO_ADDED">Todo Added!</string>
+    <string name="TODO_REMOVED">Todo Removed!</string>
+    <string name="TITLE_NOT_EMPTY">Title can\'t be empty!</string>
+    <string name="TODO_NAME">Name: </string>
+    <string name="TODO_DETAILS">Details: </string>
+</resources>
